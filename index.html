@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exxmon</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section>
+        <div id = "navbar">
+          <div class="navbar-left">
+            <h1>Exxmon</h1>
+            <p>Find Your Favourite Movie</p>
+          </div>
+          <div class="navbar-right">
+            <input oninput="debounce(main, 1000)" type="text" id="movie" placeholder="Enter Movie Name" />
+            <div id="movies"></div>
+          </div>
+        </div>            
+      </section>
+      <section>
+        <div id="data"></div>
+      </section>
+      <section>
+        <h1>Most Popular Movies</h1>
+        <div id="data-two"></div>
+      </section>
+      <script src="./js/index.js"></script>
+</body>
+</html>

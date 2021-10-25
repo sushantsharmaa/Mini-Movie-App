@@ -1,0 +1,114 @@
+body {
+  background-color: #171717;
+  color: white;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+#navbar{
+    display: flex;
+}
+
+.navbar-right {
+    margin-left: 550px;
+    padding-top: 40px;
+}
+
+.navbar-right input{
+    width: 300px;
+    height: 25px;
+    border: none;
+   
+}
+
+.navbar-right input:focus{
+  outline:none;
+}
+
+#movies {
+    height: 250px;
+    width: 304px;
+    color: black;
+    overflow: hidden;
+    background-color: white;
+    border-top: none;
+    display: none;
+    position: absolute;
+    z-index: 101;
+  }
+
+  .searchDiv{
+     display: flex;
+     border-bottom: 1px solid lightgray;
+  }
+
+  .searchDiv img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+  }
+
+  .searchDiv p{
+    margin: 0;
+    font-size: 0.8rem;
+    padding: 5px;
+  }
+
+  .searchDiv:hover{
+      cursor: pointer;
+  }
+  
+
+h1 {
+  color: red;
+}
+
+section {
+  width: 90%;
+  margin: auto;
+  z-index: 100;
+}
+
+#data {
+  display: flex;
+  margin-top: 30px;
+}
+
+.movie-img {
+  height: 300px;
+}
+
+.error-img {
+  margin-top: 50px;
+}
+
+.div2 {
+   margin-left: 30px;
+}
+
+.recommended {
+  margin: 10px;
+  margin-left: 0;
+  padding: 5px;
+  width: 190px;
+  color: white;
+  text-align: center;
+  background-color: red;
+}
+
+#data-two {
+  display: grid;
+  grid-template-columns: repeat(6, 15%);
+  grid-gap: 20px;
+}
+
+#data-two > div > img {
+  width: 100%;
+  height: 250px;
+}
+
+#data-two > div > h3 {
+  font-size: 1rem;
+  width: 100%;
+}
